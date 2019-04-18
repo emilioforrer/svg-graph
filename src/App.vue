@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <svg-layout>
+      
+    </svg-layout>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SvgLayout from './components/SVG/Layout.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    'svg-layout': SvgLayout
   }
 }
 </script>

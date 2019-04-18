@@ -698,6 +698,11 @@
     error-stack-parser "^2.0.0"
     string-width "^2.0.0"
 
+"@svgdotjs/svg.js@^3.0.12":
+  version "3.0.12"
+  resolved "https://registry.yarnpkg.com/@svgdotjs/svg.js/-/svg.js-3.0.12.tgz#ef9f743576daaa458d56f4a253680b22c91d3527"
+  integrity sha512-2oaomFz21tW5L+LwCVchIr+LiTsNeKH3RguryLr4QpRdilc2Rw1R8T7MyOC1GwyRCZr0Jejx7k72PnHWooSpIg==
+
 "@types/events@*":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
@@ -2561,6 +2566,13 @@ defaults@^1.0.3:
   dependencies:
     clone "^1.0.2"
 
+deffy@^2.0.0:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/deffy/-/deffy-2.2.3.tgz#16671c969a8fc447c76dd6bb0d265dd2d1b9c361"
+  integrity sha512-c5JD8Z6V1aBWVzn1+aELL97R1pHCwEjXeU3hZXdigkZkxb9vhgFP162kAxGXl992TtAg0btwQyx7d54CqcQaXQ==
+  dependencies:
+    typpy "^2.0.0"
+
 define-properties@^1.1.2, define-properties@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
@@ -3561,6 +3573,13 @@ function-bind@^1.0.2, function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
+function.name@^1.0.3:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/function.name/-/function.name-1.0.12.tgz#34eec84476d9fb67977924a4cdcb98ec85695726"
+  integrity sha512-C7Tu+rAFrWW5RjXqtKtXp2xOdCujq+4i8ZH3w0uz/xrYHBwXZrPt96x8cDAEHrIjeyEv/Jm6iDGyqupbaVQTlw==
+  dependencies:
+    noop6 "^1.0.1"
+
 functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
@@ -3973,6 +3992,11 @@ icss-utils@^2.1.0:
   integrity sha1-g/Cg7DeL8yRheLbCrZE28TWxyWI=
   dependencies:
     postcss "^6.0.1"
+
+idy@^1.0.0:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/idy/-/idy-1.2.9.tgz#86d4c5a68d14dc9254838ea2d1c069ad1d531566"
+  integrity sha512-LA5nUAfhj77gbjmMUouRPUdP7+DCycJirbt5h5HYOTVlegEPteOTa4GALDbe/KOqXBiVpAN7qszLM42XpIh1KQ==
 
 ieee754@^1.1.4:
   version "1.1.13"
@@ -4428,6 +4452,11 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
+
+iterate-object@^1.1.0:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/iterate-object/-/iterate-object-1.3.3.tgz#c58e60f7f0caefa2d382027a484b215988a7a296"
+  integrity sha512-DximWbkke36cnrSfNJv6bgcB2QOMV9PRD2FiowwzCoMsh8RupFLdbNIzWe+cVDWT+NIMNJgGlB1dGxP6kpzGtA==
 
 javascript-stringify@^1.6.0:
   version "1.6.0"
@@ -5168,6 +5197,11 @@ node-releases@^1.1.14:
   integrity sha512-cKV097BQaZr8LTSRUa2+oc/aX5L8UkZtPQrMSTgiJEeaW7ymTDCoRaGCoaTqk0lqnalcoSHu4wjSl0Cmj2+bMw==
   dependencies:
     semver "^5.3.0"
+
+noop6@^1.0.1:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/noop6/-/noop6-1.0.8.tgz#eff06e2e5b3621e9e5618f389d6a2294f76e64ad"
+  integrity sha512-+Al5csMVc40I8xRfJsyBcN1IbpyvebOuQmMfxdw+AL6ECELey12ANgNTRhMfTwNIDU4W9W0g8EHLcsb3+3qPFA==
 
 nopt@^4.0.1:
   version "4.0.1"
@@ -6685,6 +6719,13 @@ set-blocking@^2.0.0, set-blocking@~2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
+set-or-get@^1.0.0:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/set-or-get/-/set-or-get-1.2.9.tgz#0734c3b29661a3352853495afde238a0ec5b1b3f"
+  integrity sha512-G6xYWAJSs21OMBhVK/cLVi9c+jdvOoDNBxg9YBL/Y84Lyp7WVdfTWZDeflC+IQyY4IK/lijpKuiJdJySAQyXtA==
+  dependencies:
+    deffy "^2.0.0"
+
 set-value@^0.4.3:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/set-value/-/set-value-0.4.3.tgz#7db08f9d3d22dc7f78e53af3c3bf4666ecdfccf1"
@@ -7166,6 +7207,26 @@ svg-tags@^1.0.0:
   resolved "https://registry.yarnpkg.com/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
   integrity sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=
 
+svg.connectable.js@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/svg.connectable.js/-/svg.connectable.js-2.0.1.tgz#d3025d0368e488dad9bd488bb80f5810f60e414f"
+  integrity sha512-mXKNCkUjjBZldXJHwWoxiJ7YFf1OA11kZk7WdOOshCzm+nbjR7aUjIBlKDKNB/usZpdv+h8znQVRI85qXEf02w==
+  dependencies:
+    deffy "^2.0.0"
+    idy "^1.0.0"
+    iterate-object "^1.1.0"
+    set-or-get "^1.0.0"
+
+svg.draggy.js@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/svg.draggy.js/-/svg.draggy.js-1.1.1.tgz#c4e2d1702735bf5ec2d504ac44728a8a62a38449"
+  integrity sha1-xOLRcCc1v17C1QSsRHKKimKjhEk=
+
+svg.js@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/svg.js/-/svg.js-2.7.1.tgz#eb977ed4737001eab859949b4a398ee1bb79948d"
+  integrity sha512-ycbxpizEQktk3FYvn/8BH+6/EuWXg7ZpQREJvgacqn46gIddG24tNNe4Son6omdXCnSOaApnpZw6MPCBA1dODA==
+
 svgo@^1.0.0:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-1.2.2.tgz#0253d34eccf2aed4ad4f283e11ee75198f9d7316"
@@ -7414,6 +7475,13 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typpy@^2.0.0:
+  version "2.3.11"
+  resolved "https://registry.yarnpkg.com/typpy/-/typpy-2.3.11.tgz#21a0d22c96fb646306e08b6c669ad43608e1b3b9"
+  integrity sha512-Jh/fykZSaxeKO0ceMAs6agki9T5TNA9kiIR6fzKbvafKpIw8UlNlHhzuqKyi5lfJJ5VojJOx9tooIbyy7vHV/g==
+  dependencies:
+    function.name "^1.0.3"
 
 uglify-js@3.4.x:
   version "3.4.10"
