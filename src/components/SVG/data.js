@@ -1,12 +1,17 @@
+import uuid from 'uuid/v4'
+
+const uuid1 = uuid()
+const uuid2 = uuid()
+const uuid3 = uuid()
 export default {
     steps: [
       {
-        uuid: '1',
+        uuid: uuid1,
         title: 'Test',
         description: '',
         end_available: false,
         input_expected: 3,
-        next_step_uuids: ['2','3'],
+        next_step_uuids: [uuid2,uuid3],
         executors: [],
         meta: {
           x: 10,
@@ -18,7 +23,7 @@ export default {
         }
       },
       {
-        uuid: '2',
+        uuid: uuid2,
         title: 'Test  2',
         description: '',
         end_available: false,
@@ -35,7 +40,7 @@ export default {
         }
       },
       {
-        uuid: '3',
+        uuid: uuid3,
         title: 'Test 3',
         description: '',
         end_available: false,
